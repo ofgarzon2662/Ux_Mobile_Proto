@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#212529"
+    android:orientation="vertical"
+    tools:context=".Generar">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#212529"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:titleTextColor="#FFFFFF" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#212529"
+        tools:context=".MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:paddingStart="16dp"
+            android:paddingLeft="16dp"
+            android:paddingTop="16dp"
+            android:paddingEnd="16dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:gravity="center"
+                android:text="Generar alarma para tu cita odontológica con el\nDr. Diego Malagón"
+                android:textColor="@color/texto_titulo"
+                android:textSize="28dp" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="16dp"
+                android:textColorHint="@color/m3_textfield_stroke_color_custom"
+                android:theme="@style/ThemeOverlay.AppTheme.TextInputEditText.Outlined"
+                app:boxStrokeColor="@color/m3_textfield_stroke_color_custom"
+                app:counterTextColor="@color/m3_textfield_stroke_color_custom"
+                app:endIconTint="@color/white"
+                app:helperTextTextColor="@color/m3_textfield_stroke_color_custom"
+                app:hintTextColor="@color/m3_textfield_stroke_color_custom"
+                app:placeholderTextColor="@color/m3_textfield_stroke_color_custom"
+                app:prefixTextColor="@color/m3_textfield_stroke_color_custom"
+                app:startIconTint="@color/white"
+                app:suffixTextColor="@color/m3_textfield_stroke_color_custom">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:cursorVisible="true"
+                    android:hint="Fecha"
+                    android:text="Lunes, Ene 02/2025 - 17:00"
+                    android:textColor="#FFFFFF"
+                    android:textColorHighlight="#0B5ED7"
+                    android:textColorLink="#FFFFFF" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="16dp"
+                android:textColorHint="@color/m3_textfield_stroke_color_custom"
+                android:theme="@style/ThemeOverlay.AppTheme.TextInputEditText.Outlined"
+                app:boxStrokeColor="@color/m3_textfield_stroke_color_custom"
+                app:counterTextColor="@color/m3_textfield_stroke_color_custom"
+                app:endIconTint="@color/white"
+                app:helperTextTextColor="@color/m3_textfield_stroke_color_custom"
+                app:hintTextColor="@color/m3_textfield_stroke_color_custom"
+                app:placeholderTextColor="@color/m3_textfield_stroke_color_custom"
+                app:prefixTextColor="@color/m3_textfield_stroke_color_custom"
+                app:startIconTint="@color/white"
+                app:suffixTextColor="@color/m3_textfield_stroke_color_custom">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:cursorVisible="true"
+                    android:hint="Punto de partida"
+                    android:text="Calle 44 12 36"
+                    android:textColor="#FFFFFF"
+                    android:textColorHighlight="#0B5ED7"
+                    android:textColorLink="#FFFFFF" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="16dp"
+                android:textColorHint="@color/m3_textfield_stroke_color_custom"
+                android:theme="@style/ThemeOverlay.AppTheme.TextInputEditText.Outlined"
+                app:boxStrokeColor="@color/m3_textfield_stroke_color_custom"
+                app:counterTextColor="@color/m3_textfield_stroke_color_custom"
+                app:endIconTint="@color/white"
+                app:helperTextTextColor="@color/m3_textfield_stroke_color_custom"
+                app:hintTextColor="@color/m3_textfield_stroke_color_custom"
+                app:placeholderTextColor="@color/m3_textfield_stroke_color_custom"
+                app:prefixTextColor="@color/m3_textfield_stroke_color_custom"
+                app:startIconTint="@color/white"
+                app:suffixTextColor="@color/m3_textfield_stroke_color_custom">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:cursorVisible="true"
+                    android:hint="Lugar de la cita médica"
+                    android:text="Cra 17 145 80"
+                    android:textColor="#FFFFFF"
+                    android:textColorHighlight="#0B5ED7"
+                    android:textColorLink="#FFFFFF" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="16dp"
+                android:textColorHint="@color/m3_textfield_stroke_color_custom"
+                android:theme="@style/ThemeOverlay.AppTheme.TextInputEditText.Outlined"
+                app:boxStrokeColor="@color/m3_textfield_stroke_color_custom"
+                app:counterTextColor="@color/m3_textfield_stroke_color_custom"
+                app:endIconTint="@color/white"
+                app:helperTextTextColor="@color/m3_textfield_stroke_color_custom"
+                app:hintTextColor="@color/m3_textfield_stroke_color_custom"
+                app:placeholderTextColor="@color/m3_textfield_stroke_color_custom"
+                app:prefixTextColor="@color/m3_textfield_stroke_color_custom"
+                app:startIconTint="@color/white"
+                app:suffixTextColor="@color/m3_textfield_stroke_color_custom"
+                android:hint="Medio de transporte"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+
+                <AutoCompleteTextView
+                    android:id="@+id/mdt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="none"
+                    android:text="Transporte privado"
+                    android:textColor="#FFFFFF"
+                    android:textColorHighlight="#0B5ED7"
+                    android:textColorLink="#FFFFFF" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="16dp"
+                android:textColorHint="@color/m3_textfield_stroke_color_custom"
+                android:theme="@style/ThemeOverlay.AppTheme.TextInputEditText.Outlined"
+                app:boxStrokeColor="@color/m3_textfield_stroke_color_custom"
+                app:counterTextColor="@color/m3_textfield_stroke_color_custom"
+                app:endIconTint="@color/white"
+                app:helperTextTextColor="@color/m3_textfield_stroke_color_custom"
+                app:hintTextColor="@color/m3_textfield_stroke_color_custom"
+                app:placeholderTextColor="@color/m3_textfield_stroke_color_custom"
+                app:prefixTextColor="@color/m3_textfield_stroke_color_custom"
+                app:startIconTint="@color/white"
+                app:suffixTextColor="@color/m3_textfield_stroke_color_custom">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:cursorVisible="true"
+                    android:hint="Tiempo en minutos que tardas en alistarte"
+                    android:text="60"
+                    android:textColor="#FFFFFF"
+                    android:textColorHighlight="#0B5ED7"
+                    android:textColorLink="#FFFFFF" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:height="36dp"
+                android:onClick="generar"
+                android:text="Generar alarma"
+                android:textColor="@color/white"
+                android:textColorHighlight="#FFFFFF"
+                android:textColorLink="#FFFFFF"
+                android:theme="@style/BotonAzul" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
