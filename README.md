@@ -3,12 +3,12 @@
 Prototipo Mobile
 
 # Prerequisitos
-Java v8
-Gradle v8.0
-Android Gradle Plugin Version v8.1.2
-Android Studio Android Studio Giraffe | 2022.3.1 Patch 2
+- Java v8
+- Gradle v8.0
+- Android Gradle Plugin Version v8.1.2
+- Android Studio Android Studio Giraffe | 2022.3.1 Patch 2
 
-#Ejecucion
+# Ejecucion
 
 Para ejecutar la aplicación debe ejecutar el comando _*adb shell am start -n "com.example.prototipo_movil/com.example.prototipo_movil.MainActivity" -a android.intent.action.MAIN -c android.intent.category.LAUNCHER --splashscreen-show-icon*_
 
